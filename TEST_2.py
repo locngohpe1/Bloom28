@@ -1,18 +1,8 @@
 """
-BENCHMARK 2 — Intel Berkeley Research Lab Sensor Data (Real Dataset)
+TEST 2 — Intel Berkeley Research Lab Sensor Dataset
 ======================================================================
-Dataset gốc MIT (file .txt, space-separated, không có header):
-  http://db.csail.mit.edu/labdata/labdata.html
+Dataset : http://db.csail.mit.edu/labdata/labdata.html
 
-Format mỗi dòng:
-  2004-03-31 03:38:15.757551 2 1 122.153 -3.91901 11.04 2.03397
-  [date]     [time]           [epoch] [moteid] [temp] [hum] [light] [volt]
-
-CÁCH CHẠY:
-  python benchmark_2_intel_lab.py --data_path "C:/path/to/data.txt"
-
-  Nếu file là CSV từ Kaggle (có header):
-  python benchmark_2_intel_lab.py --data_path "C:/path/to/data.csv" --format csv
 """
 
 import sys
